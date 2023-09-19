@@ -1,0 +1,77 @@
+*
+{
+     font-family : sans-serif;
+     font-size : 18px;
+     color : black;
+     border:none;
+     outline:none;
+}
+body
+{ 
+     min-height : 100vh;
+     background-color:  #fff;
+     display : flex;
+     justify-content:center;
+     padding-top : 40px; 
+     
+}
+
+.cars-container
+{
+     display : flex ;
+     flex-direction : column;
+     gap : 50px;
+}
+
+.cars-adder
+{ 
+     display : flex ;    
+     gap  :  10px;
+}
+
+button 
+{
+     padding : 5px;
+}
+input 
+{ 
+     border :2px solid black;
+     padding:3px;
+}
+button
+{
+     border : 1px solid black;
+     cursor :pointer;
+}
+.cars-search 
+{
+     display : flex;
+     gap :  20px;
+     /* border : 2px solid green; */
+     justify-content: space-between;
+     padding : 0px 10px;
+}
+.cars-search  .right-section > span
+{
+     margin-right : 20px;
+}    
+
+.cars-list  > div
+{
+     padding : 5px 0px ;
+     display : flex;
+     gap : 10px;
+     justify-content: space-around;
+}
+
+.cars-list p
+{ 
+     display : inline;
+     padding: 10px;
+     font-size : 19px;
+}
+.total-displayer 
+{
+     font-size : 25px;
+     font-weight: bolder;
+}
