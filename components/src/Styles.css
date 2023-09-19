@@ -1,0 +1,26 @@
+
+.cart 
+{    
+     display : flex ;
+     justify-content: space-between;
+     flex-wrap :wrap;
+     background-color: black;
+     flex-direction:column;
+     flex-grow : 1 ;
+}
+.imagediv
+{ 
+     padding:10px 0px;
+}
+img
+{
+     height :  20vw;
+     width  : 100%;
+     /* width : 20vw; */
+     object-fit: contain;
+}
+.textdiv
+{ 
+     font-size :  17px;
+     color : white;
+}

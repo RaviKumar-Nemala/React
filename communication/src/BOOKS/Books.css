@@ -1,0 +1,55 @@
+*
+{
+     font-family: sans-serif;
+}
+.books_div
+{
+     height : auto;
+     width :  30vw;
+     margin : 0px auto;
+     display : flex;
+     flex-direction: column;
+     
+}
+.books_div  input , button
+{
+     padding : 5px;
+     font-size : 16px;
+     color : black ;
+}
+
+.books_div form
+{
+     display: flex;
+     flex-direction : column ;
+     padding : 10px 0px;
+     gap :  10px;
+}
+
+.books_displayer
+{
+     display  : flex;
+     gap:  15px;
+     width : 100vw;
+     box-sizing : border-box;
+     border :2px solid red;
+     min-height: 30vh;
+}
+
+.books_displayer > div
+{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap : 5px;
+     font-size: 19px;
+     width :  20vw;
+     border:2px solid green;
+}
+.books_displayer > div >  img
+{ 
+     width: 20vw;
+     max-height:150px;
+     object-fit : contain;
+}
